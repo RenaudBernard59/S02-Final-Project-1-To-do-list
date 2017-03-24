@@ -1,3 +1,14 @@
+* {
+    font-family: Arial, Sans-serif;
+    margin: auto;
+}
+
+a {
+    color: OrangeRed;
+    text-decoration: none;
+    
+}
+
 
 /* Tête du document */
 header {
@@ -11,17 +22,43 @@ header {
 h1 {
     font-size: xx-large;
     color: Green;
-    font-family: Arial, Sans-serif;
+    text-align: center;
+    
+}
+
+/* Main content */
+
+article {
+    margin: 50px;
+    background-color: LightGreen;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: x-large;
+    color: Maroon;
+    text-align: center;
+}
+
+h3 {
+    
     text-align: center;
     
 }
 
 
 
+article section {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: Orange;
+    border-radius: 10px;
+    margin: 20px;
+    padding : 20px;
 
-
-
-
+}
 
 
 
