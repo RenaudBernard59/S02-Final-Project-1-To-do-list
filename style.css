@@ -4,7 +4,7 @@
 }
 
 a {
-    color: OrangeRed;
+    color: Black;
     text-decoration: none;
     
 }
@@ -30,15 +30,22 @@ h1 {
 
 article {
     margin: 50px;
-    background-color: LightGreen;
+    background-color: white;
     border-radius: 30px;
-    padding: 10px;
+    border: maroon 1px solid;
 }
 
 h2 {
     font-size: x-large;
     color: Maroon;
     text-align: center;
+    margin: 5px;
+}
+
+.semaine {
+    padding: 10px;
+    background-color: LightGreen;
+    border-radius: 0px 0px 30px 30px;
 }
 
 h3 {
@@ -53,10 +60,10 @@ article section {
     width: 400px;
     display: inline-block;
     vertical-align: top;
-    background-color: Orange;
+    background-color: yellow;
     border-radius: 10px;
     margin: 20px;
-    padding : 20px;
+
 
 }
 
@@ -64,5 +71,43 @@ article section {
 
 
 
+li {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #FF8000;
+}
 
+li:nth-of-type(2n)  {
+    background-color: #DD8000;
+}
 
+.list {
+    background-color: Orange;
+    padding : 20px; 
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* Footer */
+footer {
+    background-color: Peru;
+    border-top: black solid 3px;
+    padding: 25px;
+    margin: auto
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    border: solid black 2px;
+}
+
+p {
+    display: inline-block;
+    vertical-align: top;
+    font-size: large;
+    color: snow;
+    
+}
