@@ -4,10 +4,12 @@
 }
 
 a {
-    color: Black;
+    color: black;
     text-decoration: none;
     
 }
+
+
 
 
 /* Tête du document */
@@ -109,5 +111,13 @@ p {
     vertical-align: top;
     font-size: large;
     color: snow;
+    
+}
+
+/* Etat du travail */
+
+.finish, .finish a {
+    color: ForestGreen;
+    text-decoration: line-through;
     
 }
